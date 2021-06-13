@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "target": "es5",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "jsx": "preserve",
+    "strict": true,
+    "lib": ["ES2017", "dom"],
+    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "paths": {
+      "src/*": ["src/*"]
+    }
+  },
+  "exclude": ["dist", ".next", "out"],
+  "include": ["next-env.d.ts", "next.config.js", "**/*.ts", "**/*.tsx"]
+}

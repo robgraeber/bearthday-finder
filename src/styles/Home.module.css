@@ -1,0 +1,37 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  height: 100vh;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.submitButton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 15px;
+  border: 0;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #3369ff;
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  text-align: center;
+  position: relative;
+}
+
+.submitButton:active {
+  top: 1px;
+}

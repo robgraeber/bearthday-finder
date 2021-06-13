@@ -1,0 +1,19 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  height: 100vh;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.earthImage {
+  width: 25%;
+}
